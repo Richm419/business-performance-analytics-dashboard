@@ -8,13 +8,13 @@ Note: All data in this project is simulated for portfolio/demo purposes.
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ![Dashboard Preview](dashboard_preview.png)
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The goal of this project is to analyze job-level revenue, cost, and profitability data to:
 
@@ -27,7 +27,7 @@ This simulates a real-world business analytics use case for a service-based comp
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Power BI (Data Modeling + Visualization)
 - Python (Data transformation & preparation)
@@ -37,7 +37,7 @@ This simulates a real-world business analytics use case for a service-based comp
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 business-performance-analytics-dashboard/
 │
 ├── data/
@@ -52,7 +52,7 @@ business-performance-analytics-dashboard/
 └── README.md
 ---
 
-## 📈 Key Metrics Included
+## Key Metrics Included
 
 - Total Revenue
 - Total Cost
@@ -66,7 +66,7 @@ business-performance-analytics-dashboard/
 
 ---
 
-## 🔎 Business Insights Demonstrated
+## Business Insights Demonstrated
 
 - New Construction generates highest total profit but has highest cost variance.
 - Interior Repaint shows strongest profit margin.
@@ -75,7 +75,7 @@ business-performance-analytics-dashboard/
 
 ---
 
-## 🚀 How To Use
+## How To Use
 
 1. Review the CSV data in `/data`
 2. Run Python scripts in `/scripts` if adjustments are needed
@@ -83,7 +83,7 @@ business-performance-analytics-dashboard/
 
 ---
 
-## 📌 What This Project Demonstrates
+## What This Project Demonstrates
 
 - Data cleaning & preparation
 - Financial KPI modeling
