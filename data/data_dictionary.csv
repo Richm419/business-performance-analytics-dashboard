@@ -1,0 +1,21 @@
+field,definition
+job_id,"Unique job identifier (e.g., J001)."
+job_date,Date the job started.
+job_type,"Painting job category (Repaint, Interior Repaint, Exterior Repaint, Patching, New Construction)."
+crew_size,Number of workers assigned to the job.
+estimated_hours,Estimated labor hours.
+actual_hours,Actual labor hours.
+labor_rate,Hourly labor rate used for costing.
+estimated_material_cost,Estimated cost of materials.
+actual_material_cost,Actual cost of materials.
+estimated_labor_cost,estimated_hours * labor_rate.
+actual_labor_cost,actual_hours * labor_rate.
+estimated_total_cost,estimated_labor_cost + estimated_material_cost.
+actual_total_cost,actual_labor_cost + actual_material_cost.
+revenue,Simulated bid revenue based on estimated_total_cost and markup_pct.
+profit,revenue - actual_total_cost.
+profit_margin_pct,profit / revenue.
+total_cost_variance,actual_total_cost - estimated_total_cost.
+total_cost_variance_pct,total_cost_variance / estimated_total_cost.
+is_overrun,1 if actual_total_cost > estimated_total_cost else 0.
+season,Season derived from job_date.
