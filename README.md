@@ -38,19 +38,20 @@ This simulates a real-world business analytics use case for a service-based comp
 ---
 
 ## Project Structure
+
+```
 business-performance-analytics-dashboard/
-│
 ├── data/
-│ ├── jobs.csv
-│ ├── job_costing_fact.csv
-│ └── data_dictionary.csv
+│   ├── jobs.csv
+│   ├── job_costing_fact.csv
+│   └── data_dictionary.csv
 │
 ├── scripts/
-│ └── cost_analysis.py
+│   └── cost_analysis.py
 │
 ├── dashboard_preview.png
 └── README.md
----
+```
 
 ## Key Metrics Included
 
